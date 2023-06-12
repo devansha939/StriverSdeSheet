@@ -27,3 +27,13 @@ vector<int> nextPermutation(vector<int> &vec, int n)
 
     return vec;
 }
+
+
+// using stl
+#include <bits/stdc++.h> 
+vector<int> nextPermutation(vector<int> &vec, int n)
+{
+    //  Write your code here.
+    next_permutation(vec.begin(),vec.end());
+    return vec;
+}
